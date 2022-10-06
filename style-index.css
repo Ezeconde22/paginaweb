@@ -1,0 +1,110 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* esto es el body*/
+body{
+    background-image: url(img/img-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/* esto es el header y su menu navegable*/
+a, li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+.nav-menu a:hover{
+    color: #4ad295;
+}
+/*este es el main y su contenido*/
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 350px;
+    height: 350px;
+}
+.nuestro-laburo h2{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.nuestro-laburo p{
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.beneficios{
+    padding: 50px 50px;
+    justify-content: center;
+    text-align: center;
+}
+.beneficios div{
+    padding: 30px 30px;
+}
+.beneficios div h4{
+    color: white;
+    font-size: 30px;
+    margin: 15px 15px;
+}
+.beneficios div p{
+    color: white;
+    font-size: 18px;
+}
+
+/* esto es el footer*/
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0,5rem 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.piepagina{
+    display: flex;
+    align-items: center;
+}
+.piepagina h3{
+    color: white;
+    margin-right: 30px;
+}
+.piepagina ul{
+    display: flex;
+    align-items: center;
+}
+.piepagina li{
+    margin-right: 30px;
+}
+.piepagina a{
+    color: white;
+}
+.piepagina a:hover{
+    color: #4ad295;
+}
+.rights{
+    color: white;
+}

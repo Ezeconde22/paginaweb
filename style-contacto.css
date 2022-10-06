@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* esto es la imagen de fondo - lo puse yo porque si no, no se ve nada*/
+body{
+    background-image: url(img/img-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*este es el menu de navegación - lo hice yo*/
+a, li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+.nav-menu a:hover{
+    color: #4ad295;
+}
+.logo{
+    text-align: center;
+}
+.logo img{
+    width: 350px;
+    height: 350px;
+}
+.logo h2{
+    color: white;
+}
+.contactos{
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.contactos div h4{
+    color: white;
+    font-size: 30px;
+    margin: 15px 15px;
+}
+.contactos div p{
+    color: white;
+    font-size: 18px;
+}
+/* esto es el footer*/
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0,5rem 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.piepagina{
+    display: flex;
+    align-items: center;
+}
+.piepagina h3{
+    color: white;
+    margin-right: 30px;
+}
+.piepagina ul{
+    display: flex;
+    align-items: center;
+}
+.piepagina li{
+    margin-right: 30px;
+}
+.piepagina a{
+    color: white;
+}
+.piepagina a:hover{
+    color: #4ad295;
+}
+.rights{
+    color: white;
+}

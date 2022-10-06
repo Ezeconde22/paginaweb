@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+  }
+  body{
+    background-image: url(img/img-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-menu li{
+    margin-right: 1.5rem;
+}
+.nav-menu a:hover{
+    color: #4ad295;
+}
+/* main*/
+.titulo{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(64, 56, 179, 0.767)), color-stop(17%, rgba(21, 118, 184, 0.945)), color-stop(58%, rgba(0, 176, 176, 0.5)), color-stop(100%, rgba(231, 131, 128, 0.5)));
+    display: flex;
+    width: 20%;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+/* esto es el footer*/
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0,5rem 2rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+.piepagina{
+    display: flex;
+    align-items: center;
+}
+.piepagina h3{
+    color: white;
+    margin-right: 30px;
+}
+.piepagina ul{
+    display: flex;
+    align-items: center;
+}
+.piepagina li{
+    margin-right: 30px;
+}
+.piepagina a{
+    color: white;
+}
+.piepagina a:hover{
+    color: #4ad295;
+}
+.rights{
+    color: white;
+}
